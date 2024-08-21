@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tentar abrir esse site em varios dispositivos diferentes ou simplementes aumenta e dimunua o seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="IMAGEM/PEQUENA.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="IMAGEM/MEDIA.png" type="image/png">
+        <img src="IMAGEM/GRANDE.png" alt="">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="Media/Eu-vou-atingir-o-meu-potencial-máximo-Pl_1.mp3" type="audio/mpeg">
+        <source src="Media/Eu-vou-atingir-o-meu-potencial-máximo-Pl_1.mp3" type="audio/ogg">
+        <source src="Media/Eu-vou-atingir-o-meu-potencial-máximo-Pl_1.mp3" type="audio/wav">
+        <p>Seu navegador não é compativel com mp3</p>
+    </audio>
+    <h1>Black alpha</h1>
+    <picture>
+        <source media="(max-width: 700px)" srcset="IMAGEM/Lobo-p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="IMAGEM/Lobo-M.jpg" type="image/jpg">
+        <img src="IMAGEM/Lobo-G.jpg" alt="">
+    </picture>
+    <p></p>
+    <audio preload="metadata" controls>
+        <source src="Media/GABIMARU-Vs-LORD-TENSEN-Hell-s-Paradise-_2.mp3" type="audio/mpeg">
+        <source src="Media/GABIMARU-Vs-LORD-TENSEN-Hell-s-Paradise-_2.mp3" type="audio/ogg">
+        <source src="Media/GABIMARU-Vs-LORD-TENSEN-Hell-s-Paradise-_2.mp3" type="audio/wav">
+        
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="Media/Jack Hanma vs Raian vs PickleBaki Hanma VS Kengan Ashura AMV.mp3" type="audio/mpeg">
+        <source src="Media/Jack Hanma vs Raian vs PickleBaki Hanma VS Kengan Ashura AMV.mp3" type="audio/ogg">
+        <source src="Media/Jack Hanma vs Raian vs PickleBaki Hanma VS Kengan Ashura AMV.mp3" type="audio/Wav">
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="Media/Hajime Umemiya vs Choji TomiyamaWind Breaker AMVOff The Edge.mp3" type="audio/mpeg">
+        <source src="Media/Hajime Umemiya vs Choji TomiyamaWind Breaker AMVOff The Edge.mp3" type="audio/ogg">
+        <source src="Media/Hajime Umemiya vs Choji TomiyamaWind Breaker AMVOff The Edge.mp3" type="audio/wav">
+    </audio>
+</body>
+</html>

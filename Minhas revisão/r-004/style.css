@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Bruxa";
+    src: url("Bloody\ Frozen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "fet";
+    src: url("CakeZombie.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "fix";
+    src: url("Monster\ Party\ Personal\ Use.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "dxd";
+    src: url("MortifiedDrip.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1#principal
+{
+    font-family: "Bruxa";
+    font-weight: normal;
+    font-style: normal;
+}
+.b
+{
+    color: #BF0404;
+    font-family: "fet";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+}
+.f
+{
+    color: #BF0404;
+    font-family: "fix";
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 2em;
+}
+.ff
+{
+    color: #BF0404;
+    font-family: "dxd";
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 2em;
+}
+.p
+{
+    text-align: justify;
+    text-indent: 2em;
+}

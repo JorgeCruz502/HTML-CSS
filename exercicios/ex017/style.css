@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body
+{
+    /*fontes em CSS
+    Medidas absolutas
+    cm, mm, im(polegada), px, pt, pc
+    
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    
+    16px geralmente = 1em*/
+
+    background-image: linear-gradient(to right, rgb(255, 136, 0),rgb(128, 51, 0),rgb(255, 174, 0));
+}
+main
+{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(117, 64, 3);
+    font-size: 20px;
+}
+h1{ 
+    text-align: center;
+    text-shadow: 1px 1px 1px #0a2d4d;
+   /*Declaração de fontes Normal: 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;*/
+    /*Declaração de fontes encurtadas 
+      font: font-style -> font-weight -> font-size -> fonte family
+      tradução: font: italic bolder 3em "work sans", sans-serif;
+*/
+    font: italic bolder 3em "work sans", sans-serif;
+}
+h1,h2
+{
+    font: italic bolder 2em "work sans", sans-serif;
+    color: #125189 ;
+}
