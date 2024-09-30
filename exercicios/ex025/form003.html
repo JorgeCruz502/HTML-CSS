@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <label for="iname">
+            <p>Nome <input type="text" name="name" id="iname" required placeholder="Nome completo"></p>
+        </label>
+        <label for="imedia">
+            <p>Média <input type="number" name="media" id="imedia" step="0.1" value="10" required max="20" min="0"></p>
+        </label>
+        <label for="imes">
+            <p>Mes da Prova <input type="month" name="mes" id="imes" required></p>
+        </label>
+        <label for="idia">
+            <p><input type="date" name="dia" id="idia" required></p>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
