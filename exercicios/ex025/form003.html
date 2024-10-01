@@ -7,21 +7,23 @@
 </head>
 <body>
     <form action="cadastro.php" method="get">
-        <label for="iname">
-            <p>Nome <input type="text" name="name" id="iname" required placeholder="Nome completo"></p>
+            <p>
+                <label for="iname">Nome</label> <input type="text" name="name" id="iname" required placeholder="Nome completo">
+            </p>
+            <p> 
+                <label for="imedia">Média</label> <input type="number" name="media" id="imedia" step="0.1" value="10" required max="20" min="0">
+            </p>
+            <p>
+                 <label for="imes">Mes da Prova</label> <input type="month" name="mes" id="imes" required>
+            </p>
+        
+        <p>
+            <label for="idia"> <input type="date" name="dia" id="idia" required>
+            </p>
         </label>
-        <label for="imedia">
-            <p>Média <input type="number" name="media" id="imedia" step="0.1" value="10" required max="20" min="0"></p>
-        </label>
-        <label for="imes">
-            <p>Mes da Prova <input type="month" name="mes" id="imes" required></p>
-        </label>
-        <label for="idia">
-            <p><input type="date" name="dia" id="idia" required></p>
-        </label>
-        <label for="ihora">
-            <p>Horas da Prova <input type="time" name="hora" id="ihora" required></p>
-        </label>
+        <p>
+            <label for="ihora">Horas da Prova</label> <input type="time" name="hora" id="ihora" required>
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
