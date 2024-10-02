@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>cadastro</legend>
+        <form action="Cadastro.php" method="post">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="ipass">Password</label>
+                <input type="password" name="pass" id="ipass">
+            </p>
+            <p>
+                <label for="idade">Idade</label>
+                <input type="number" name="dade" id="idade" required min="18">
+            </p>
+            <p>
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="Masculino">
+                <label for="sexo">Feminino</label>
+                <input type="radio" name="sexo" id="Feminino">
+            </p>
+            <P>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </P>
+        </form>
+    </fieldset>
+</body>
+</html>
