@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Teste com Formulario</h1>
+    
+    
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iprov">Provincia</label>
+            <select name="prov" id="iprov">
+                    <option value="LU">Luanda</option>
+                    <option value="BE">Benguela</option>
+                    <option value="Be">Bengo</option>
+                    <option value="MA">Malanje</option>
+                    <option value="NA">Namibia</option>
+                    <option value="KS">Cuanza-Sul</option>
+                    <option value="KN">Cuanza-Norte</option>
+                <option value="BI">Bié</option>
+                <option value="CU">Cunene</option>
+                <option value="HU">Huíla</option>
+                <option value="LN">Lunda-Norte</option>
+                <option value="LS">Lunda-Sul</option>
+                <option value="MO">Moxico</option>
+                <option value="UI">Uíge</option>
+                <option value="ZA">Zaire</option>
+                <option value="Cu">Cuando-Cunango</option>
+                <option value="Hu">Huambo</option>
+            </select>
+        </p>
+        <P>
+            <label for="isa">Aluno</label>
+            <input type="text" name="sa" id="isa" list="Isa">
+            <datalist id="Isa">
+                <option>Jorge</option>
+                <option>Ludomasio</option>
+                <option>Abimael</option>
+                <option>Sandro</option>
+            </datalist>
+        </P>
+        <p>
+            <label for="imes">Mensagem</label> <br>
+            <textarea name="mes" id="imes" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
