@@ -13,6 +13,7 @@ html,body{
 
 header{
     background-color: gray;
+    padding: 20px 0px 0px 0px;
 }
 
 header > h1{
@@ -41,14 +42,21 @@ menu > ul > li > a{
 menu > ul > li > a:hover{
     background-color: gray;
 }
+#menu{
+    display: none;
+}
 #Menu{
     background-color: rgb(43, 42, 42);
+    color: white;
     display: block;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
+    
 }
 #Menu:hover{
     background-color: white;
+    color: black;
 }
 main{
     width: 90vw;
